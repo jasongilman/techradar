@@ -2,7 +2,7 @@
 document.title = "element 84's Technology Radar";
 
 function shrink(n) {
-  return n * 0.7; 
+  return n * 0.7;
 }
 
 
@@ -23,7 +23,7 @@ var radar_arcs = [
 //   t = moved
 //   c = stayed put
 //
-// blipSize: 
+// blipSize:
 //  intValue; This is optional, if you omit this property, then your blip will be size 70.
 //            This give you the ability to be able to indicate information by blip size too
 //
@@ -60,7 +60,7 @@ var radar_data = [
       "left" : 45,
       "top" : 18,
       "color" : "#8FA227",
-      "items" : [ 
+      "items" : [
       // Adopt
       {"name":"Functional Programming", "pc":{"r":shrink(20),"t":160}},
       {"name":"Dedicated Error Tracking", "pc":{"r":shrink(60),"t":100}},
@@ -69,7 +69,7 @@ var radar_data = [
       {"name":"Property Based Testing", "pc":{"r":shrink(80),"t":125}},
       //Trial
       {"name":"Visualization Driven Development", "pc":{"r":shrink(150),"t":135}},
-      // Assess    
+      // Assess
       {"name":"Daily Journaling", "pc":{"r":shrink(230),"t":150}},
       {"name":"CommonJS or AMD in Rails projects", "pc":{"r":shrink(250),"t":135}}
       ]
@@ -78,7 +78,7 @@ var radar_data = [
         "left": w-200+30,
         "top" : 18,
         "color" : "#587486",
-        "items" : [ 
+        "items" : [
         // Adopt
         {"name":"Web fonts", "pc":{"r":shrink(40),"t":30}},
         {"name":"Enlive for server-side templating", "pc":{"r":shrink(80),"t":20}},
@@ -90,14 +90,12 @@ var radar_data = [
         {"name":"Packer", "pc":{"r":shrink(120),"t":30}},
         {"name":"Genymotion (Emulator)", "pc":{"r":shrink(150),"t":40}},
         {"name":"core.async", "pc":{"r":shrink(170),"t":50}},
-        {"name":"Calabash", "pc":{"r":shrink(150),"t":60}},
         {"name":"Custom font icons sets ", "pc":{"r":shrink(165),"t":30}},
         {"name":"Knockout.js", "pc":{"r":shrink(150),"t":80}},
         // Assess
         {"name":"Docker.io", "pc":{"r":shrink(270),"t":15}},
         {"name":"Spoon", "pc":{"r":shrink(250),"t":85}},
         {"name":"New WYSIWYG tools", "pc":{"r":shrink(250),"t":35}},
-        {"name":"Cross Platform Mobile Frameworks", "pc":{"r":shrink(250),"t":45}},
         // Hold
         {"name":"Cucumber Testing", "pc":{"r":shrink(350),"t":45}}
         ]
@@ -107,48 +105,36 @@ var radar_data = [
          "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [
-            {"name":"Rich internet applications", "pc":{"r":shrink(390),"t":265},"movement":"c"},   
-            {"name":"GWT", "pc":{"r":shrink(390),"t":250},"movement":"c"},   
-            {"name":"IE8", "pc":{"r":shrink(390),"t":230},"movement":"c"},   
-            {"name":"WS-* beyond basic profile", "pc":{"r":shrink(390),"t":190},"movement":"c"},   
-            {"name":"Azure", "pc":{"r":shrink(290),"t":265},"movement":"c"},   
-            {"name":"Mobile Web", "pc":{"r":shrink(275),"t":260},"movement":"t"},   
-            {"name":"Google App Engine", "pc":{"r":shrink(290),"t":255},"movement":"c"},   
-            {"name":"Application appliances", "pc":{"r":shrink(190),"t":245},"movement":"c"},   
-            {"name":"Google as corporate platform", "pc":{"r":shrink(290),"t":200},"movement":"c"},   
-            {"name":"GPGPU", "pc":{"r":shrink(190),"t":185},"movement":"t"},   
-            {"name":"App containers", "pc":{"r":shrink(250),"t":260},"movement":"c"},   
-            {"name":"OAuth", "pc":{"r":shrink(130),"t":260},"movement":"t"},   
-            {"name":"RDFa", "pc":{"r":shrink(130),"t":250},"movement":"t"},   
-            {"name":"Location based services", "pc":{"r":shrink(130),"t":230},"movement":"c"},   
-            {"name":"iPad", "pc":{"r":shrink(130),"t":220},"movement":"c"},   
-            {"name":"EC2 & S3", "pc":{"r":shrink(190),"t":250},"movement":"c"},   
-            {"name":"Facebook as a business platform", "pc":{"r":shrink(190),"t":190},"movement":"c"},   
-            {"name":"JVM as platform", "pc":{"r":shrink(90),"t":265},"movement":"c"},   
-            {"name":"iPhone", "pc":{"r":shrink(90),"t":215},"movement":"c"},   
-            {"name":"Android", "pc":{"r":shrink(90),"t":190},"movement":"c"},   
-            {"name":"KVM", "pc":{"r":shrink(70),"t":260},"movement":"t"},   
-            {"name":"Atom", "pc":{"r":shrink(70),"t":245},"movement":"t"},   
-            {"name":"ALT.NET", "pc":{"r":shrink(90),"t":190},"movement":"c"},   
-            {"name":"IE6 End of Life", "pc":{"r":shrink(30),"t":225},"movement":"c"}
+            // Adopt
+          {"name":"Elasticsearch", "pc":{"r":shrink(36),"t":240}},
+          {"name":"Node.js", "pc":{"r":shrink(60),"t":205}},
+          {"name":"Microservices", "pc":{"r":shrink(67),"t":236}},
+          // Trial
+          {"name":"Immutable Data Storage", "pc":{"r":shrink(163),"t":236}},
+          {"name":"Riak", "pc":{"r":shrink(150),"t":200}},
+          // Assess
+          {"name":"GlusterFS", "pc":{"r":shrink(250),"t":193}},
+          {"name":"Cross Platform Mobile Frameworks", "pc":{"r":shrink(230),"t":230}},
+          // Hold
         ]
     },
     { "quadrant": "Languages",
         "color" : "#B70062",
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
-        "items" : [ 
-            {"name":"Java language end of life", "pc":{"r":shrink(290),"t":355},"movement":"c"},   
-            {"name":"F#", "pc":{"r":shrink(270),"t":330},"movement":"c"},   
-            {"name":"Scala", "pc":{"r":shrink(290),"t":320},"movement":"c"},   
-            {"name":"Clojure", "pc":{"r":shrink(260),"t":310},"movement":"c"},   
-            {"name":"HTML 5", "pc":{"r":shrink(250),"t":275},"movement":"c"},   
-            {"name":"DSLs", "pc":{"r":shrink(190),"t":340},"movement":"c"},   
-            {"name":"Groovy", "pc":{"r":shrink(190),"t":280},"movement":"c"},   
-            {"name":"C#4", "pc":{"r":shrink(90),"t":355},"movement":"c"},   
-            {"name":"JRuby", "pc":{"r":shrink(90),"t":330},"movement":"c"},   
-            {"name":"Javascript as a 1st class language", "pc":{"r":shrink(90),"t":275},"movement":"c"},   
-            {"name":"Ruby", "pc":{"r":shrink(30),"t":282},"movement":"c"}
+        "items" : [
+            // Adopt
+            {"name":"Clojure", "pc":{"r":shrink(40),"t":335}},
+            {"name":"SASS/LESS", "pc":{"r":shrink(60),"t":315}},
+            {"name":"ReactiveCocoa", "pc":{"r":shrink(80),"t":290}},
+            // Trial
+            {"name":"ClojureScript", "pc":{"r":shrink(150),"t":335}},
+            // Assess
+            {"name":"Elixir", "pc":{"r":shrink(270),"t":290}},
+            {"name":"ECMAScript 6", "pc":{"r":shrink(270),"t":335}},
+            // Hold
+            {"name":"Client Side CoffeeScript", "pc":{"r":shrink(370),"t":307}},
+
         ]
     }
 ];
