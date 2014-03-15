@@ -1,0 +1,61 @@
+﻿Techniques
+// Adopt
+{"name":"Functional Programming", "pc":{"r":shrink(350),"t":135}},
+{"name":"Dedicated Error Tracking", "pc":{"r":shrink(350),"t":135}},
+{"name":"Testing at the appropriate level", "pc":{"r":shrink(350),"t":135}},
+{"name":"Testing Distributed System Failure Cases", "pc":{"r":shrink(350),"t":135}},
+{"name":"Property Based Testing", "pc":{"r":shrink(350),"t":135}},
+{"name":"Daily Journaling", "pc":{"r":shrink(350),"t":135}},
+{"name":"Responsive Design", "pc":{"r":shrink(350),"t":135}},
+// Trial
+{"name":"Visualization Driven Development", "pc":{"r":shrink(350),"t":135}},
+// Assess
+{"name":"CommonJS or AMD in Rails projects", "pc":{"r":shrink(350),"t":135}},
+// Hold
+
+Tools
+// Adopt
+{"name":"Serverspec", "pc":{"r":shrink(350),"t":135}},
+{"name":"Web fonts", "pc":{"r":shrink(350),"t":135}},
+{"name":"Enlive for server-side templating", "pc":{"r":shrink(350),"t":135}},
+{"name":"Grunt", "pc":{"r":shrink(350),"t":135}},
+{"name":"Leaflet.js", "pc":{"r":shrink(350),"t":135}},
+{"name":"Gradle Build System", "pc":{"r":shrink(350),"t":135}},
+// Trial
+{"name":"Packer", "pc":{"r":shrink(350),"t":135}},
+{"name":"Genymotion (Emulator)", "pc":{"r":shrink(350),"t":135}},
+{"name":"core.async", "pc":{"r":shrink(350),"t":135}},
+{"name":"Calabash", "pc":{"r":shrink(350),"t":135}},
+{"name":"Custom font icons sets ", "pc":{"r":shrink(350),"t":135}},
+{"name":"Knockout.js", "pc":{"r":shrink(350),"t":135}},
+// Assess
+{"name":"Docker.io", "pc":{"r":shrink(350),"t":135}},
+{"name":"New WYSIWYG tools", "pc":{"r":shrink(350),"t":135}},
+{"name":"Cross Platform Mobile Frameworks", "pc":{"r":shrink(350),"t":135}},
+{"name":"Spoon", "pc":{"r":shrink(350),"t":135}},
+// Hold
+{"name":"Cucumber Testing", "pc":{"r":shrink(350),"t":135}},
+
+Platforms
+// Adopt
+{"name":"Elasticsearch", "pc":{"r":shrink(350),"t":135}},
+{"name":"Node.js", "pc":{"r":shrink(350),"t":135}},
+// Trial
+{"name":"Immutable Data Storage", "pc":{"r":shrink(350),"t":135}},
+{"name":"Riak", "pc":{"r":shrink(350),"t":135}},
+// Assess
+{"name":"GlusterFS", "pc":{"r":shrink(350),"t":135}},
+// Hold
+
+Languages & Frameworks
+// Adopt
+{"name":"Clojure", "pc":{"r":shrink(350),"t":135}},
+{"name":"SASS/LESS", "pc":{"r":shrink(350),"t":135}},
+{"name":"ReactiveCocoa", "pc":{"r":shrink(350),"t":135}},
+// Trial
+{"name":"ClojureScript", "pc":{"r":shrink(350),"t":135}},
+// Assess
+{"name":"Elixir", "pc":{"r":shrink(350),"t":135}},
+{"name":"ECMAScript 6 (ES6) via the Traceur compiler", "pc":{"r":shrink(350),"t":135}},
+// Hold
+{"name":"CoffeeScript for client-side scripts", "pc":{"r":shrink(350),"t":135}},
