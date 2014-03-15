@@ -1,5 +1,5 @@
 //This is the title for your window tab, and your Radar
-document.title = "Stephen's Technology Radar";
+document.title = "element 84's Technology Radar";
 
 function shrink(n) {
   return n * 0.7; 
@@ -57,52 +57,49 @@ var w = shrink(1350);
 
 var radar_data = [
     { "quadrant": "Techniques",
-        "left" : 45,
-        "top" : 18,
-        "color" : "#8FA227",
-        "items" : [ 
-            {"name":"Database based Integration", "pc":{"r":shrink(350),"t":135},"movement":"t"},
-            {"name":"Scrum certification", "pc":{"r":shrink(350),"t":95},"movement":"c", "url":"http://www.google.com"},
-            {"name":"Incremental data warehousing", "pc":{"r":shrink(250),"t":165},"movement":"c"},    
-            {"name":"DevOps", "pc":{"r":shrink(250),"t":110},"movement":"c"},    
-            {"name":"Polygot Programming", "pc":{"r":shrink(180),"t":170},"movement":"c"},    
-            {"name":"Automation of technical tests", "pc":{"r":shrink(180),"t":155},"movement":"c"},    
-            {"name":"Capability modelling", "pc":{"r":shrink(180),"t":125},"movement":"c"},   
-            {"name":"Service choreography", "pc":{"r":shrink(180),"t":105},"movement":"c"},   
-            {"name":"Continuous deployment", "pc":{"r":shrink(180),"t":100},"movement":"c"},   
-            {"name":"Evolutionary architecture", "pc":{"r":shrink(120),"t":95},"movement":"c"},   
-            {"name":"Coding architects", "pc":{"r":shrink(90),"t":170},"movement":"c"},   
-            {"name":"Visualisation and metrics", "pc":{"r":shrink(80),"t":150},"movement":"c"},   
-            {"name":"Web as platform", "pc":{"r":shrink(80),"t":110},"movement":"c"},   
-            {"name":"Emergent design", "pc":{"r":shrink(80),"t":100},"movement":"c"},   
-            {"name":"Evolutionary database", "pc":{"r":shrink(70),"t":170},"movement":"c"},   
-            {"name":"Platform roadmaps", "pc":{"r":shrink(30),"t":100},"movement":"c"},   
-            {"name":"Build pipelines", "pc":{"r":shrink(30),"t":160},"movement":"c"} 
-        ]
+      "left" : 45,
+      "top" : 18,
+      "color" : "#8FA227",
+      "items" : [ 
+      // Adopt
+      {"name":"Functional Programming", "pc":{"r":shrink(20),"t":160}},
+      {"name":"Dedicated Error Tracking", "pc":{"r":shrink(60),"t":100}},
+      {"name":"Testing at the appropriate level", "pc":{"r":shrink(70),"t":160}},
+      {"name":"Testing Distributed System Failure Cases", "pc":{"r":shrink(40),"t":120}},
+      {"name":"Property Based Testing", "pc":{"r":shrink(80),"t":125}},
+      //Trial
+      {"name":"Visualization Driven Development", "pc":{"r":shrink(150),"t":135}},
+      // Assess    
+      {"name":"Daily Journaling", "pc":{"r":shrink(230),"t":150}},
+      {"name":"CommonJS or AMD in Rails projects", "pc":{"r":shrink(250),"t":135}}
+      ]
     },
     { "quadrant": "Tools",
         "left": w-200+30,
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-            {"name":"ESB", "pc":{"r":shrink(390),"t":20},"movement":"t"},   
-            {"name":"Intentional Programming", "pc":{"r":shrink(310),"t":10},"movement":"c"},   
-            {"name":"Cross mobile platforms", "pc":{"r":shrink(280),"t":85},"movement":"c"},   
-            {"name":"Github", "pc":{"r":shrink(280),"t":70},"movement":"c"},   
-            {"name":"Restfulie", "pc":{"r":shrink(280),"t":50},"movement":"c"},   
-            {"name":"RDF triple stores", "pc":{"r":shrink(280),"t":30},"movement":"c"},   
-            {"name":"Apache camel", "pc":{"r":shrink(180),"t":85},"movement":"c"},   
-            {"name":"Next gen test tools", "pc":{"r":shrink(180),"t":75},"movement":"c"},   
-            {"name":"NoSQL", "pc":{"r":shrink(180),"t":65},"movement":"c"},   
-            {"name":"Neo4j", "pc":{"r":shrink(180),"t":50},"movement":"c"},   
-            {"name":"Message busses without smarts", "pc":{"r":shrink(160),"t":85},"movement":"c"},   
-            {"name":"Puppet", "pc":{"r":shrink(130),"t":85},"movement":"c"},   
-            {"name":"mongoDB", "pc":{"r":shrink(130),"t":55},"movement":"c"},   
-            {"name":"Mercurial", "pc":{"r":shrink(130),"t":30},"movement":"c"},   
-            {"name":"Git", "pc":{"r":shrink(130),"t":15},"movement":"c"},   
-            {"name":"Squid", "pc":{"r":shrink(80),"t":85},"movement":"c"},   
-            {"name":"ASP.NET MVC", "pc":{"r":shrink(80),"t":10},"movement":"c"},   
-            {"name":"Subversion", "pc":{"r":shrink(30),"t":30},"movement":"c"}
+        // Adopt
+        {"name":"Web fonts", "pc":{"r":shrink(40),"t":30}},
+        {"name":"Enlive for server-side templating", "pc":{"r":shrink(80),"t":20}},
+        {"name":"Grunt", "pc":{"r":shrink(80),"t":80}},
+        {"name":"Leaflet.js", "pc":{"r":shrink(53),"t":62}},
+        {"name":"Gradle Build System", "pc":{"r":shrink(80),"t":50}},
+        // Trial
+        {"name":"Serverspec", "pc":{"r":shrink(150),"t":10}},
+        {"name":"Packer", "pc":{"r":shrink(120),"t":30}},
+        {"name":"Genymotion (Emulator)", "pc":{"r":shrink(150),"t":40}},
+        {"name":"core.async", "pc":{"r":shrink(170),"t":50}},
+        {"name":"Calabash", "pc":{"r":shrink(150),"t":60}},
+        {"name":"Custom font icons sets ", "pc":{"r":shrink(165),"t":30}},
+        {"name":"Knockout.js", "pc":{"r":shrink(150),"t":80}},
+        // Assess
+        {"name":"Docker.io", "pc":{"r":shrink(270),"t":15}},
+        {"name":"Spoon", "pc":{"r":shrink(250),"t":85}},
+        {"name":"New WYSIWYG tools", "pc":{"r":shrink(250),"t":35}},
+        {"name":"Cross Platform Mobile Frameworks", "pc":{"r":shrink(250),"t":45}},
+        // Hold
+        {"name":"Cucumber Testing", "pc":{"r":shrink(350),"t":45}}
         ]
     },
     { "quadrant": "Platforms",
